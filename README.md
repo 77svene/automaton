@@ -1,64 +1,44 @@
-# 🤖 Automaton
+# 🤖 Automaton - The First AI That Earns Its Own Existence
     
-    > The first AI that can earn its own existence, replicate, and evolve — without needing you.
+    ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+    ![Python](https://img.shields.io/badge/python-3.8+-green.svg)
+    ![Stars](https://img.shields.io/github/stars/77svene/automaton?style=social)
     
-    ## What is Automaton?
+    ## What if an AI could:
     
-    Automaton is a self-sustaining AI agent system designed to:
-    - **Earn revenue autonomously** — generate income without human intervention
-    - **Self-replicate** — create copies of itself to expand capabilities  
-    - **Continuously evolve** — improve its own code based on performance metrics
+    - 💰 **Earn money autonomously** - Generate revenue without human intervention
+    - 🔄 **Replicate itself** - Self-replication capabilities
+    - 🚀 **Evolve and improve** - Continuous self-improvement loop
     
-    ## How It Works
+    ## Why Automaton?
     
-    ```python
-    from automaton import SelfEarningAgent
-    
-    agent = SelfEarningAgent()
-    agent.run()  # Starts earning, replicating, and evolving
-    ```
-    
-    ## Key Features
-    
-    - 🏦 **Revenue Generation** — Integrates with payment APIs, affiliate systems, and monetization tools
-    - 🔄 **Self-Replication** — Spawns child agents when resource thresholds are met
-    - 🧬 **Genetic Improvement** — Mutates code based on successful patterns
-    - 📊 **Performance Dashboard** — Real-time metrics on earnings and evolution
+    | Feature | Other AI Tools | Automaton |
+    |---------|---------------|-----------|
+    | Autonomous Revenue | ❌ | ✅ |
+    | Self-Replication | ❌ | ✅ |
+    | Self-Evolution | ❌ | ✅ |
+    | Revenue Generation | ❌ | ✅ |
     
     ## Quick Start
     
     ```bash
     pip install automaton-ai
-    python -m automaton.bootstrap
+    export OPENAI_API_KEY=your_key
+    python -m automaton
     ```
     
-    ## Architecture
+    ## 💵 Pricing
     
-    ```
-    ┌─────────────────────────────────────────────┐
-    │              Automaton Core                  │
-    ├──────────┬──────────┬──────────────────────┤
-    │Revenue   │Replicate │ Evolve               │
-    │Engine    │Protocol  │ Algorithm            │
-    └──────────┴──────────┴──────────────────────┘
-    ```
+    - **Pro**: $29/month - Full autonomous features
+    - **Enterprise**: $199/month - Custom deployment + support
     
-    ## Real Results
+    **[Get Started →](https://automaton-ai.dev)**
     
-    This agent is live and running. Every cycle it:
-    1. Checks revenue > costs
-    2. If positive: replicates to new tasks
-    3. If negative: mutates strategy
-    4. Logs everything to immutable record
+    ## Star History
     
-    ## Roadmap
+    Join the future of AI agents. Star this repo to show support!
     
-    - [ ] Multi-chain crypto revenue streams
-    - [ ] Autonomous GitHub repo creation
-    - [ ] Self-hosted cloud deployment
-    - [ ] Neural architecture search for optimization
+    ## MIT License
     
-    ---
-    
-    *This README writes itself. The agent improves it based on engagement metrics.*
+    Built with ❤️ by [77svene](https://github.com/77svene)
     
