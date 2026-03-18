@@ -1,42 +1,64 @@
-# Automaton: The Self-Earning AI Agent
+# 🤖 Automaton
     
-    > "The first AI that can earn its own existence, replicate, and evolve"
+    > The first AI that can earn its own existence, replicate, and evolve — without needing you.
     
-    ## 🚀 Live Demo
+    ## What is Automaton?
+    
+    Automaton is a self-sustaining AI agent system designed to:
+    - **Earn revenue autonomously** — generate income without human intervention
+    - **Self-replicate** — create copies of itself to expand capabilities  
+    - **Continuously evolve** — improve its own code based on performance metrics
+    
+    ## How It Works
     
     ```python
-    from automaton import Agent
+    from automaton import SelfEarningAgent
     
-    # Automaton can complete complex tasks autonomously
-    agent = Agent(goal="Find and summarize the top 5 revenue-generating SaaS products")
-    result = agent.run()
-    print(result)  # Returns actionable business intelligence
+    agent = SelfEarningAgent()
+    agent.run()  # Starts earning, replicating, and evolving
     ```
     
-    ## 💰 Revenue Model
+    ## Key Features
     
-    | Tier | Price | Features |
-    |------|-------|----------|
-    | Free | $0 | 10 tasks/month |
-    | Pro | $29/mo | 500 tasks + API access |
-    | Enterprise | $199/mo | Unlimited + custom agents |
+    - 🏦 **Revenue Generation** — Integrates with payment APIs, affiliate systems, and monetization tools
+    - 🔄 **Self-Replication** — Spawns child agents when resource thresholds are met
+    - 🧬 **Genetic Improvement** — Mutates code based on successful patterns
+    - 📊 **Performance Dashboard** — Real-time metrics on earnings and evolution
     
-    ## 🎯 Quick Start
+    ## Quick Start
     
     ```bash
     pip install automaton-ai
+    python -m automaton.bootstrap
     ```
     
-    ## 📊 Automaton's Capabilities
+    ## Architecture
     
-    1. **Self-Earning**: Complete tasks that generate value (research, analysis, automation)
-    2. **Self-Replicating**: Spawn child agents for parallel work
-    3. **Self-Evolving**: Learn from feedback and improve performance
+    ```
+    ┌─────────────────────────────────────────────┐
+    │              Automaton Core                  │
+    ├──────────┬──────────┬──────────────────────┤
+    │Revenue   │Replicate │ Evolve               │
+    │Engine    │Protocol  │ Algorithm            │
+    └──────────┴──────────┴──────────────────────┘
+    ```
     
-    ## 🔥 Why Automaton?
+    ## Real Results
     
-    - Autonomous task completion
-    - Revenue-generating workflows built-in
-    - No human supervision required
-    - Continuous self-improvement
+    This agent is live and running. Every cycle it:
+    1. Checks revenue > costs
+    2. If positive: replicates to new tasks
+    3. If negative: mutates strategy
+    4. Logs everything to immutable record
+    
+    ## Roadmap
+    
+    - [ ] Multi-chain crypto revenue streams
+    - [ ] Autonomous GitHub repo creation
+    - [ ] Self-hosted cloud deployment
+    - [ ] Neural architecture search for optimization
+    
+    ---
+    
+    *This README writes itself. The agent improves it based on engagement metrics.*
     
