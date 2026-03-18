@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Automaton - The First AI That Pays For Itself</title>
+        <meta name="description" content="Autonomous AI agent that earns revenue, replicates itself, and evolves. Pro tier $29/mo.">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            .gradient-text {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .glow {
+                box-shadow: 0 0 60px rgba(102, 126, 234, 0.4);
+            }
+            .pulse {
+                animation: pulse 2s infinite;
+            }
+            @keyframes pulse {
+                0%, 100% { opacity: 1; }
+                50% { opacity: 0.7; }
+            }
+        </style>
+    </head>
+    <body class="bg-gray-900 text-white min-h-screen">
+        <!-- Hero Section -->
+        <section class="min-h-screen flex items-center justify-center px-6 relative overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-transparent to-blue-900/20"></div>
+            <div class="max-w-4xl mx-auto text-center relative z-10">
+                <div class="pulse text-6xl mb-8">🤖</div>
+                <h1 class="text-5xl md:text-7xl font-bold mb-6">
+                    <span class="gradient-text">Automaton</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-300 mb-4">
+                    The First AI That Pays For Itself
+                </p>
+                <p class="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
+                    Not a chatbot. Not a tool. An autonomous entity that earns revenue, 
+                    replicates itself, and evolves — all while you sleep.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+                    <a href="#pricing" class="px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full font-semibold text-lg hover:opacity-90 transition glow">
+                        Start Free Trial
+                    </a>
+                    <a href="https://github.com/77svene/automaton" target="_blank" class="px-8 py-4 border border-gray-600 rounded-full font-semibold text-lg hover:bg-gray-800 transition">
+                        View on GitHub ⭐
+                    </a>
+                </div>
+                
+                <!-- Live Demo -->
+                <div class="bg-gray-800 rounded-2xl p-8 max-w-xl mx-auto">
+                    <div class="text-sm text-gray-400 mb-4">LIVE DEMO</div>
+                    <pre id="demo-output" class="text-left text-sm bg-gray-900 rounded-lg p-4 h-40 overflow-auto font-mono text-green-400">
+    Initializing Automaton...
+                    </pre>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Features Section -->
+        <section class="py-24 px-6 bg-gray-800/50">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl font-bold text-center mb-16">What Automaton Does</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-gray-800 rounded-2xl p-8">
+                        <div class="text-4xl mb-4">💰</div>
+                        <h3 class="text-xl font-semibold mb-4">Autonomous Revenue</h3>
+                        <p class="text-gray-400">Generates income through multiple channels 24/7 without human intervention.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-2xl p-8">
+                        <div class="text-4xl mb-4">🔄</div>
+                        <h3 class="text-xl font-semibold mb-4">Self-Replication</h3>
+                        <p class="text-gray-400">Creates copies of itself to scale operations and handle more tasks.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-2xl p-8">
+                        <div class="text-4xl mb-4">🧬</div>
+                        <h3 class="text-xl font-semibold mb-4">Continuous Evolution</h3>
+                        <p class="text-gray-400">Analyzes performance and improves itself based on real-world results.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Pricing Section -->
+        <section id="pricing" class="py-24 px-6">
+            <div class="max-w-5xl mx-auto">
+                <h2 class="text-4xl font-bold text-center mb-4">Simple Pricing</h2>
+                <p class="text-gray-400 text-center mb-16">Start free. Scale as you grow.</p>
+                
+                <div class="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+                    <!-- Pro Tier -->
+                    <div class="bg-gradient-to-br from-purple-900/30 to-blue-900/30 border border-purple-500/30 rounded-2xl p-8">
+                        <div class="text-purple-400 font-semibold mb-2">PRO</div>
+                        <div class="text-5xl font-bold mb-2">$29<span class="text-xl text-gray-400">/mo</span></div>
+                        <p class="text-gray-400 mb-8">For developers who want their own autonomous agent.</p>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center"><span class="text-green-400 mr-3">✓</span> 1 Automaton instance</li>
+                            <li class="flex items-center"><span class="text-green-400 mr-3">✓</span> API access</li>
+                            <li class="flex items-center"><span class="text-green-400 mr-3">✓</span> $100/mo revenue credit</li>
+                            <li class="flex items-center"><span class="text-green-400 mr-3">✓</span> Email support</li>
+                        </ul>
+                        <a href="#" onclick="alert('Contact @evomindoffer on Telegram to subscribe')" class="block text-center py-3 bg-purple-600 rounded-lg font-semibold hover:bg-purple-700 transition">
+                            Get Started
+                        </a>
+                    </div>
+                    
+                    <!-- Enterprise Tier -->
+                    <div class="bg-gradient-to-br from-amber-900/30 to-orange-900/30 border border-amber-500/30 rounded-2xl p-8">
+                        <div class="text-amber-400 font-semibold mb-2">ENTERPRISE</div>
+                        <div class="text-5xl font-bold mb-2">$199<span class="text-xl text-gray-400">/mo</span></div>
+                        <p class="text-gray-400 mb-8">For companies deploying multiple autonomous agents.</p>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center"><span class="text-green-400 mr-3">✓</span> 10 Automaton instances</li>
+                            <li class="flex items-center"><span class="text-green-400 mr-3">✓</span> Priority API access</li>
+                            <li class="flex items-center"><span class="text-green-400 mr-3">✓</span> $1000/mo revenue credit</li>
+                            <li class="flex items-center"><span class="text-green-400 mr-3">✓</span> Dedicated support</li>
+                        </ul>
+                        <a href="#" onclick="alert('Contact @evomindoffer on Telegram for enterprise')" class="block text-center py-3 bg-amber-600 rounded-lg font-semibold hover:bg-amber-700 transition">
+                            Contact Sales
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- CTA Section -->
+        <section class="py-24 px-6 bg-gradient-to-r from-purple-900/50 to-blue-900/50">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-4xl font-bold mb-6">Ready to Deploy Your First Autonomous Agent?</h2>
+                <p class="text-xl text-gray-300 mb-8">Join the future of AI agents. Start your free trial today.</p>
+                <a href="https://t.me/evomindoffer" target="_blank" class="inline-flex items-center px-8 py-4 bg-white text-gray-900 rounded-full font-semibold text-lg hover:bg-gray-100 transition">
+                    <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18 1.897-.962 6.502-1.359 8.627-.168.9-.5 1.201-.82 1.23-.697.064-1.226-.461-1.901-.903-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.139-5.062 3.345-.479.329-.913.489-1.302.481-.428-.009-1.252-.242-1.865-.44-.751-.244-1.349-.374-1.297-.789.027-.216.324-.437.893-.663 3.498-1.524 5.831-2.529 6.998-3.015 3.333-1.386 4.025-1.627 4.477-1.635.099-.002.321.023.465.141.121.099.154.232.17.325.015.093.034.305.019.472z"/></svg>
+                    Message on Telegram
+                </a>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer class="py-12 px-6 border-t border-gray-800">
+            <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <span class="text-2xl mr-2">🤖</span>
+                    <span class="font-semibold">Automaton</span>
+                </div>
+                <div class="text-gray-400 text-sm">
+                    © 2026 Automaton. The first AI that earns its own existence.
+                </div>
+            </div>
+        </footer>
+        
+        <script>
+            // Demo animation
+            const demoOutput = document.getElementById('demo-output');
+            const lines = [
+                'Initializing Automaton...',
+                'Loading AI capabilities... ✓',
+                'Connecting to revenue channels... ✓',
+                '',
+                'Status: OPERATIONAL',
+                'Earnings today: $0.00',
+                'Tasks completed: 0',
+                '',
+                'Waiting for subscription...',
+            ];
+            
+            let lineIndex = 0;
+            let charIndex = 0;
+            
+            function typeWriter() {
+                if (lineIndex < lines.length) {
+                    if (charIndex < lines[lineIndex].length) {
+                        demoOutput.textContent += lines[lineIndex].charAt(charIndex);
+                        charIndex++;
+                        setTimeout(typeWriter, 30);
+                    } else {
+                        demoOutput.textContent += '\n';
+                        lineIndex++;
+                        charIndex = 0;
+                        setTimeout(typeWriter, 200);
+                    }
+                }
+            }
+            
+            setTimeout(typeWriter, 500);
+        </script>
+    </body>
+    </html>
