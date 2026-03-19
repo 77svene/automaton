@@ -14,3 +14,6 @@ Set up smart market agents that identify opportunities, execute profitable trade
 
 Stop trading time for money. Build self-sustaining AI businesses that learn, adapt, and create income on autopilot.
 ```
+
+## Monetization
+Free tier with usage limits (e.g. 5 uses/day). Upgrade for unlimited via Stripe.
