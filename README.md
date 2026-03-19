@@ -42,3 +42,14 @@ Live demo: https://huggingface.co/spaces/orama-ai/automaton
 ### 🚀 Free Tier & Upgrade
 - **Free:** 5 uses/day via GitHub/HF.
 - **Pro:** Unlimited access via Stripe checkout (see [pricing](#)).
+
+---
+
+## Free Tier & Usage
+
+Access this tool for free with daily limits.
+Upgrade for unlimited access via Stripe.
+
+## Stripe Checkout
+
+[Upgrade Now](https://sovereignai.gumroad.com)
