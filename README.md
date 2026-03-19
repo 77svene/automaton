@@ -28,3 +28,10 @@ Secure payments powered by Stripe. No crypto accepted.
 Use case: AI-powered automation workflows.
 
 Live demo: https://huggingface.co/spaces/orama-ai/automaton
+
+**Use Case:** AI tool for analyzing Automaton tasks efficiently.
+
+
+### 🚀 Free Tier & Upgrade
+- **Free:** 5 uses/day via GitHub/HF.
+- **Pro:** Unlimited access via Stripe checkout (see [pricing](#)).
