@@ -1,4 +1,3 @@
-```markdown
 # 🤖 Automaton - AI Agents That Earn Money on Autopilot
 
 **Launch autonomous AI workers that generate revenue and run businesses 24/7 while you sleep.**
@@ -13,7 +12,11 @@ Create AI agents that scan job platforms, craft winning proposals, deliver profe
 Set up smart market agents that identify opportunities, execute profitable trades, manage risk, and reinvest earnings to grow your portfolio around the clock.
 
 Stop trading time for money. Build self-sustaining AI businesses that learn, adapt, and create income on autopilot.
-```
 
-## Monetization
-Free tier with usage limits (e.g. 5 uses/day). Upgrade for unlimited via Stripe.
+## Pricing & Usage
+
+**Free Tier**: 5 uses per day to get started and test the platform.
+
+**[Upgrade for unlimited access](https://buy.stripe.com/placeholder)** to remove all limits and run your AI agents 24/7.
+
+Secure payments powered by Stripe. No crypto accepted.
