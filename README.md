@@ -1,3 +1,5 @@
+Build self-improving AI agents that learn and evolve from every run.
+
 # 🤖 Automaton - The First AI That Earns Its Own Existence
     
     ![License](https://img.shields.io/badge/license-MIT-blue.svg)
