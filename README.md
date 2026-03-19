@@ -20,3 +20,11 @@ Stop trading time for money. Build self-sustaining AI businesses that learn, ada
 **[Upgrade for unlimited access](https://buy.stripe.com/placeholder)** to remove all limits and run your AI agents 24/7.
 
 Secure payments powered by Stripe. No crypto accepted.
+
+## Free Tier & Upgrade
+- Free: 5 uses/day with clear limits
+- Upgrade for unlimited access via Stripe (post-launch)
+
+Use case: AI-powered automation workflows.
+
+Live demo: https://huggingface.co/spaces/orama-ai/automaton
